@@ -2,18 +2,14 @@ package events;
 
 import org.springframework.context.ApplicationEvent;
 
-public class BigBangEvent extends ApplicationEvent {
+public class BigBangEvent {
 
 	private String episode_number;
 
-	public BigBangEvent(Object source)
-	{
-		super(source);
-	}
 
-	public BigBangEvent(Object source , String episode_number)
+	public BigBangEvent( String episode_number)
 	{
-		super(source);
+
 		this.episode_number=episode_number;
 	}
 

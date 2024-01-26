@@ -9,7 +9,7 @@ public class Main {
 	{
 		ApplicationContext context=new AnnotationConfigApplicationContext(configurations.class);
 		MyEventPublisher publisher=context.getBean("myEventPublisher" , MyEventPublisher.class);
-		publisher.stream_bigbang_event("12");
+		publisher.stream_bigbang_event("87");
 
 	}
 

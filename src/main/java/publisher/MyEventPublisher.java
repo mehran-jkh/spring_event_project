@@ -14,7 +14,7 @@ public class MyEventPublisher  {
 
 	public void stream_bigbang_event(String episode_number)
 	{
-		applicationEventPublisher.publishEvent(new BigBangEvent(this , episode_number));
+		applicationEventPublisher.publishEvent(new BigBangEvent(episode_number));
 	}
 
 }
